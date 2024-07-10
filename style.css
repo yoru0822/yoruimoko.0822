@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/Ji4UTmj.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 60px;
+  border: solid 3px #F7E7DC;
+}
+header.jumbotron h1 {
+  font-size: 70px;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #F7E7DC;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://ct.org.tw/upload/news_article/2021/03/%E9%99%B3%E6%80%A1%E5%AE%89%E6%BC%AB%E7%95%AB%E6%89%8B%E7%A8%BF%E3%80%82-767x1024.jpg);
+  height: 350px;
+  background-size: cover;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  margin-left: 120px;
+  padding: 10px 120px;
+}
+
+section#section_about img {
+  width: 120%;
+}
+section#section_about .img_wrap {
+  height: 190px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+section#section_about h3 {
+  margin-top: 20px;
+}
+section#section_about p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://i.imgur.com/aWIPRtP.png);
+  background-size: 100% auto;
+  height: 480px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+section#section_story .col-sm-12.features h4 {
+  margin-top: 10px;
+}
+section#section_story .col-sm-12.top {
+  margin-top: 60px;
+}
+section#section_story .col-sm-12.bottom {
+  padding: 20px;
+}
+section#section_story .col-sm-12.bottom p {
+  font-size: 18px;
+}
+
+section#section_comic {
+  position: relative;
+}
+section#section_comic img {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+section#section_comic i {
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 55px;
+}
+section#section_comic .col-sm-6.text h3 {
+  font-size: 30px;
+  margin-top: 50px;
+  position: absolute;
+  left: 50px;
+}
+section#section_comic .col-sm-6.text p {
+  margin-top: 110px;
+  font-size: 20px;
+}
+
+section#section_end h1 {
+  margin: 0px 40px;
+}
+section#section_end p {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/Ji4UTmj.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 6px 0px;
+}
+footer.jumbotron hr {
+  max-width: 60px;
+  border: solid 3px #F7E7DC;
+  margin-top: 20px;
+}
+footer.jumbotron button.btn.btn-light {
+  margin-top: 10px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+  color: #F7E7DC;
+}
